@@ -26,6 +26,9 @@ Aliases
 
   * `e` edit a file or directory by connecting to an emacs server. If
     an emacs server is not started, it will be created for you.
+  * `equick` start up emacs with absolutely no initialization
+    customization whatsoever. Useful for digging yourself out of a
+    hole if you managed to bork your init files.
 
 [1]: https://github.com/zimfw/zimfw
 [2]: https://www.gnu.org/software/emacs/
