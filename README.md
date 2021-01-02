@@ -1,4 +1,4 @@
-zimfw-emacs
+zsh-emacs
 ===========
 
 Useful [Emacs][2] aliases and settings. This will set emacs to be your
@@ -7,19 +7,16 @@ default editor for shell operations like editting git commit messages
 Installation
 ------------
 
-Once you have emacs already on your system, add the following to your .zimrc:
+Once you have emacs already on your system, add the following to your
+zsh plugin manaher. For example:
 
 ``` shell
-zmodule cowboyd/zimfw-emacs --branch v1
+# antigen
+antigen bundle cowboyd/zsh-emacs
+
+#zim
+zmodule cowboyd/zh-emacs --branch v1
 ```
-
-Then run:
-
-``` shellsession
-$ zimfw install
-```
-
-See [zimfw][1] for more details
 
 Aliases
 -------
